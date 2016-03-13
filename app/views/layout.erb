@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--
-    normalize.css removes cross-browser differences in defaults, e.g.,
-    differences in how form elements appear between Firefox and IE
-    See: http://necolas.github.com/normalize.css/
-  -->
   <link rel="stylesheet" href="/stylesheets/normalize.css">
+
+<!-- Slick -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascript/application.js"></script>
+  <script src="/javascript/jquery-2.2.1.js"></script>
+<link href="http://kenwheeler.github.io/slick/slick/slick.css" rel="stylesheet"/>
+<link href="http://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script type="text/javascript" src="/javascript/slick-1.5.9.js"></script>
+
   <!--
     application.css is where you put your styles
   -->
   <link rel="stylesheet" href="/stylesheets/application.css">
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="/javascript/application.js"></script>
+
+  <!-- Slick -->
 
   <title></title>
 </head>
 <body>
   <%= yield %>
+
 </body>
 </html>
